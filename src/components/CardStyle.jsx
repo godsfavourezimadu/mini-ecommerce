@@ -40,7 +40,7 @@ export const Card_holder_wrapper = styled.div `
           margin: 2px;
         }
         button{
-         background-color : blue;
+         background-color : #a1a1f7;
          border: none;
          padding: 5px;
          border-radius: 5px;

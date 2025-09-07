@@ -6,7 +6,7 @@ const Header = () => {
        <Header_holder >
         <Header_holder_wrapper>
            <div className='header_logo_holder'>
-               <h1>Z<span>codes</span></h1>
+               <h1>Venko<span>Shopping</span></h1>
            </div>
              <ul>
               <li>Home</li>
@@ -27,7 +27,7 @@ export default Header
 export const Header_holder = styled.div `
     width: 100%;
     height: 13vh;
-    background-color: #F4FEFF;
+    background-color: #fcf6bc;
     display: flex;
     justify-content: center;
     margin-bottom: 50px;
@@ -36,7 +36,7 @@ export const Header_holder = styled.div `
 export const Header_holder_wrapper = styled.div `
     width: 85%;
     height: 100%;
-    background-color: #F4FEFF;
+    background-color: #fcf6bc;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -44,11 +44,11 @@ export const Header_holder_wrapper = styled.div `
     .header_logo_holder{
       width: 40%;
       h1{
-            color: darkgray;
+            color: turquoise;
             font-size: 40px;
             font-style: italic;
             span{
-                color: purple;
+                color: #625ace;
             }
         }
     }
@@ -63,7 +63,7 @@ export const Header_holder_wrapper = styled.div `
         font-Style: normal;
         font-weight: 500;
        list-style: none;
-       color: #8665AA;
+       color: #625ace;
        cursor: pointer;
        padding: 20px 20px;
        margin-bottom: 10px;

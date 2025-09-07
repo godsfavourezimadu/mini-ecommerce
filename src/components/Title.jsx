@@ -4,7 +4,7 @@ const Title = () => {
   return (
    <Title_holder>
    <div  className='Title_holder'>
-     <h1>All-in-One <span>Storefront</span></h1>
+     <h1>Here<span> for you</span></h1>
    </div>
    </Title_holder>
   )
@@ -23,9 +23,11 @@ export const Title_holder = styled.div`
 box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;    
     h1{
         font-size: 70px;
+        box-shadow: 1px 1px 1px 1px #cccbcb;
+        padding: 25px;
         span{
             font-style: oblique;
-            color: gold;
+            color: turquoise;
         }
     }
     }

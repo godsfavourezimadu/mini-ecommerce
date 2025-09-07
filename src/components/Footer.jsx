@@ -8,7 +8,7 @@ const Footer = () => {
       <FooterHolder_wrapper>
         <div className='Footer_holder'>
             <footer className='logo_p'>
-                <h1>Z<span>codes</span></h1>
+                <h1>Venco<span></span></h1>
 
             </footer>
             <footer>

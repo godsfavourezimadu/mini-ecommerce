@@ -28,11 +28,11 @@ export const FooterHolder_wrapper = styled.div`
     .logo_p{
          background-color: inherit;
         h1{
-            color: darkgray;
+            color: turquoise;
             font-size: 40px;
             font-style: italic;
             span{
-                color: purple;
+                color: #625aceee;
             }
         }
       
